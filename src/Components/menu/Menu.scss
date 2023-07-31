@@ -27,3 +27,8 @@
     margin-left: 8px;
     font-size: 1rem;
 }
+@media screen and (max-width: 480) {
+    .item .linkName {
+        display: none
+    }
+}

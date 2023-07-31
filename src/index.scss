@@ -1,0 +1,40 @@
+:root {
+    // background
+--main-bg: #17252a;
+--soft-bg: #455A64;
+--dark-bg: 78909c;
+
+// Text
+--main-color: #eeebee;
+--soft-color: #e0e0e0;
+--dark-color:  #616161;
+}
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.main {
+    background-color: var(--soft-bg);
+    color: var(--main-color);
+}
+
+.container {
+    display: flex;
+}
+
+.menuContainer {
+    width: 250px;
+    padding: 5px 20px;
+    border-right: 2px solid var(--main-bg);
+}
+
+.contentContainer {
+    width: 100%;
+    padding: 5px 20px;
+}
+
+

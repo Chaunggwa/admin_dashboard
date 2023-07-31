@@ -1,0 +1,22 @@
+.users {
+    display: flex;
+    flex-direction: column;
+}
+.users .info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info button {
+    padding: 5px 20px;
+}
+.users .table {
+    color: white;
+}
+
+.table .tableGrid {
+    background-color: azure;
+    padding: 5px 20px;
+}

@@ -1,0 +1,16 @@
+.products {
+    display: flex;
+    flex-direction: column;
+}
+.products .info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.products .info button {
+    padding: 5px 20px;
+}
+.productTable {
+    color: white;
+}

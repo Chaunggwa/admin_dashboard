@@ -1,0 +1,15 @@
+.customers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.customers .info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.customerTable {
+    color: white;
+}

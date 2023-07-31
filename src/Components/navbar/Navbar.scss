@@ -1,0 +1,83 @@
+.navbar {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icons {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.notification {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.notification:hover {
+    color: white;
+}
+.badge {
+    position: absolute;
+    background-color: red;
+    font-size: 0.7rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: -10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+    gap: 1rem;
+}
+
+.useravatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #3432af;
+}
+
+.useravatar:hover {
+   border: none;
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setting:hover {
+    color: white;
+}
+
+
